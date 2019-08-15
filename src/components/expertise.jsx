@@ -4,7 +4,7 @@ export default class Expertise extends Component {
   render() {
     return (
     
-      <section className="colorlib-about">
+      <section className="colorlib-about" data-section="expertise">
         <div className="colorlib-narrow-content">
           <div className="row">
             <div
@@ -73,7 +73,7 @@ export default class Expertise extends Component {
             </div>
           </div>
         </div>
-        <div></div>
+        <div style={{height: "100px"}}></div>
       </section>
     
     );
