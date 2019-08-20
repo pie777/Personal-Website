@@ -20,6 +20,7 @@ export default class Experience extends Component {
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
+                      {/* TODO: Elaborate the experience just like Linkedln */}
                       <div className="timeline-label">
                         <h2><div style={{color:"#f33612", fontSize:"25px"}}>Full Stack Software/IoT Developer</div><div style={{fontSize:"19px"}}>IoTRight <span>April 2019-present</span></div><a href="https://iotright.com/" target="_blank" style={{color:"#1889f1", fontSize:"15px"}}>www.iotright.com</a></h2>
                         <p>I am working as a Full Stack Software/IoT Developer at IotRight in North Syracuse. My work goes from Application development with React and React-Native, DevOps to configuring Sensors and gateways on Lora network communicating over MQTT protocol on back-end. I am also into the field of creating sustainable and flexible CI/CD (Continuous Integration & Continuous Development) pipelines which enables developers at IoTRight to do rapid development. I am also exploring the role of container technology like Docker and container-orchrastation technologies like K8s, Swarm to create industry standard production environments.</p>
