@@ -41,7 +41,7 @@ export default class About extends Component {
                   <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
                     <div className="services color-4">
                       <span className="icon2"><i className="icon-phone3" /></span>
-                      <h3>Application</h3>
+                      <h3>Application Development</h3>
                     </div>
                   </div>
                   <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
