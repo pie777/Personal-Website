@@ -38,7 +38,7 @@ export default class Education extends Component {
                     <div className="panel panel-default">
                       <div className="panel-heading" role="tab" id="headingTwo">
                         <h4 className="panel-title">
-                          <a style={{fontSize:"21px"}} className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Electronics Engineering <span style={{fontSize:"13px"}}>2014 - 2018</span>
+                          <a style={{fontSize:"21px"}} className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree in Electronics Engineering <span style={{fontSize:"13px"}}>2014 - 2018</span>
                           </a>
                         </h4>
                       </div>
