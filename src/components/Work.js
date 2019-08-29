@@ -1,6 +1,12 @@
 import React, { Component } from "react";
-
+import "../App.css";
 export default class Work extends Component {
+  onclick = () => {
+    window.location.assign(
+      "https://raw.githubusercontent.com/anish9461/Code-Analysis-Software-Tool/master/code_analysis_software_tool.gif"
+    );
+  };
+
   render() {
     return (
       <section
@@ -55,6 +61,108 @@ export default class Work extends Component {
                     <article
                       className="timeline-entry animate-box"
                       data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Personal Website{" "}
+                              <span style={{ color: "black" }}>
+                                Jan 2019-May 2019
+                              </span>
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Web Development
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              ASP .Net Core MVC, Entity Framework, SQL Server,
+                              Web API and Web services
+                            </div>
+                          </h2>
+                          <ul>
+                            <li>
+                              This project is a Personal Website intended to
+                              display my Educational history, Professional
+                              experience, Career preference, Statement of
+                              Interest, Portfolio projects etc.
+                            </li>
+                            <li>
+                              The site also provides the ability to accept
+                              comments and requests from the recruiters that are
+                              authenticated by the site.
+                            </li>
+                            <li>
+                              The private inputs like comments are viewable and
+                              editable only by the admin and the authenticated
+                              user.
+                            </li>
+                            <li>
+                              The site is built on ASP .NET Core MVC framework,
+                              SQL Server as database and Entity Framework to
+                              manage the database.
+                            </li>
+                            <li>
+                              The site provides a webservice for the clients
+                              built using ASP .NET Web API with the ability to
+                              upload, edit and delete projects, resumes etc.
+                            </li>
+                          </ul>
+                          {/* <div style={{ marginLeft: "700px" }}>
+                            <a
+                              className="link"
+                              href="https://github.com/anish9461/Personal-Website"
+                              target="_blank"
+                              style={{ textDecoration: "underline" }}
+                            >
+                              View Source Code
+                            </a>
+                          </div> */}
+
+                          <div style={{ marginLeft: "720px", marginTop: "5%" }}>
+                            <button
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Personal-Website",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Source Code </span>
+                            </button>{" "}
+                            {/* <button style={{marginLeft:"10%"}}
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Code-Analysis-Software-Tool",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                             <span> View Source Code </span>
+                            </button>{" "} */}
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
                     >
                       <div className="timeline-entry-inner">
                         <div className="timeline-icon color-1">
@@ -133,153 +241,116 @@ export default class Work extends Component {
                               using WCF framework and WPF for the Client
                             </li>
                           </ul>
-                          <div style={{marginLeft: "700px"}}><button  data-animate-effect="fadeInTop">View Project</button> <a href="https://github.com/anish9461/Code-Analysis-Software-Tool" style={{textDecoration: "underline"}}>View Source Code</a></div>
-                        </div>
-                        
-                      </div>
-                    </article>
-                    <article
-                      className="timeline-entry animate-box"
-                      data-animate-effect="fadeInRight"
-                    >
-                      <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-2">
-                          <i className="icon-pen2" />
-                        </div>
-                        <div className="timeline-label">
-                          <h2>
-                            <button>
-                              Question Answering System (Python + Deep Learning)
+                          <div style={{ marginLeft: "700px", marginTop: "5%" }}>
+                            <button
+                              onClick={() => {
+                                window.open(
+                                  "https://raw.githubusercontent.com/anish9461/Code-Analysis-Software-Tool/master/code_analysis_software_tool.gif",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Project </span>
                             </button>{" "}
-                            <span>Oct 2018-Dec 2018</span>
-                          </h2>
-                          <p>
-                            • Implemented Dynamic Memory Network (DNM) on top of
-                            RNN to generate contextual answers to the long input
-                            sequence which decreased false negative rates by 61%
-                            on average than the regular RNN model
-                          </p>
-                          <p>
-                            • Tuned and trained the model using Python, Jupyter
-                            Notebook, Tensorflow libraries and Facebook’s bAbI
-                            dataset which achieved the accuracy of 95% overall
-                          </p>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      className="timeline-entry animate-box"
-                      data-animate-effect="fadeInLeft"
-                    >
-                      <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-5">
-                          <i className="icon-pen2" />
-                        </div>
-                        <div className="timeline-label">
-                          <h2>
-                            <button>Nucleus Message Passing (C++)</button>{" "}
-                            <span>Nov 2018-Dec 2018</span>
-                          </h2>
-                          <p>
-                            • Designed a new socket based communication channel
-                            for internal processes by maintaining a common pool
-                            of message buffers and a message queue for each
-                            process using Nachos in C++, improves the
-                            interaction between OS and processes
-                          </p>
-                          <p>
-                            • This extension allowed the processes to
-                            communicate efficiently using different methods like
-                            sendMessage, waitMessage, sendAnswer and waitAnswer
-                          </p>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      className="timeline-entry animate-box"
-                      data-animate-effect="fadeInTop"
-                    >
-                      <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-4">
-                          <i className="icon-pen2" />
-                        </div>
-                        <div className="timeline-label">
-                          <h2>
-                            <button>Facebook Data Mining</button>{" "}
-                            <span>Mar 2018-Apr 2018</span>
-                          </h2>
-                          <p>
-                            • Analyzed, discovered knowledge and categorized the
-                            Facebook page data i.e. comments, likes, shares
-                          </p>
-                          <p>
-                            • Worked with Facebook API and python libraries like
-                            urllib.request, JSON, datetime, csv, time libraries
-                            for data fetching
-                          </p>
-                          <p>
-                            • Extracted data can be used for the future
-                            prediction and development and launch of the new
-                            products
-                          </p>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      className="timeline-entry animate-box"
-                      data-animate-effect="fadeInLeft"
-                    >
-                      <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-3">
-                          <i className="icon-pen2" />
-                        </div>
-                        <div className="timeline-label">
-                          <h2>
-                            <button>
-                              Software Repository - NoSQL database (C++)
+                            <button
+                              style={{ marginLeft: "10%" }}
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Code-Analysis-Software-Tool",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Source Code </span>
                             </button>{" "}
-                            <span>Jan 2017-May 2018</span>
-                          </h2>
-                          <p>
-                            • Constructed NoSQL database for manipulating and
-                            constructing data, persisting and querying database
-                            using C++
-                          </p>
-                          <p>
-                            • developed versioning, check-in, check-out, and
-                            browsing of the source code in the repository and
-                            performed TDD-unit testing
-                          </p>
-                          <p>
-                            • Created Socket based C++ message-passing
-                            communication which allows transferring of files to
-                            and from local Client
-                          </p>
+                          </div>
                         </div>
                       </div>
                     </article>
                     <article
                       className="timeline-entry animate-box"
                       data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
                     >
                       <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-0">
+                        <div className="timeline-icon color-1">
                           <i className="icon-pen2" />
                         </div>
                         <div className="timeline-label">
                           <h2>
-                            <button>RentMaster</button>{" "}
-                            <span>June 2017-June 2018</span>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Small Scale IoT-enabled Automated Greenhouse{" "}
+                              <span style={{ color: "black" }}>
+                                Jan 2018-May 2018
+                              </span>
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Internet Of Things
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}></div>
                           </h2>
-                          <p>
-                            • Developed and designed a full-stack application
-                            used by a registered user for renting commodity to
-                            get a fair market value
-                          </p>
-                          <p>
-                            • Built backend APIs in PHP, Data access implemented
-                            using REST services and front-end UI using XML
-                          </p>
+                          <ul>
+                            <li>
+                              Completion of the Greenhouse construction as per
+                              the designed 3D model by utilizing suitable
+                              materials. This structure is designed and
+                              implemented to serve as a platform to perform
+                              different experiments pertaining to automation,
+                              biotechnology, climate control system and various
+                              other fields.
+                            </li>
+                            <li>
+                              Successful interfacing and integration of the
+                              complete Hardware architecture consisting of 9
+                              sensors (4 DHT, 4 soil moisture and 1 ultrasonic)
+                              and 8 actuators ( 2 fans, 4 irrigation motors, 1
+                              humidity control motor and 1 solenoid valve).
+                            </li>
+
+                            <li>
+                              Developed a System software architecture which
+                              drives the hardware system components.
+                              Successfully Tested and verified the working of
+                              the complete Automated system with both SW and HW
+                              components. A database system is developed to
+                              store all the different parameters from the
+                              sensors.
+                            </li>
+
+                            <li>
+                              An IOT component is developed for the user/owner
+                              of the greenhouse to be updated with the current
+                              climatic conditions inside the greenhouse with the
+                              addition of data logs in the form of attachment to
+                              an email from the System to the user’s email. The
+                              data logs obtained can be used to perform data
+                              analytics.
+                            </li>
+                          </ul>
+                          <div style={{ marginLeft: "700px" }}>
+                            <button
+                              onClick={() => {
+                                window.open(
+                                  "https://drive.google.com/file/d/1j2jKbtsIIIhQlnWpo-AeTEPMBjoIzFu8/view",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Project </span>
+                            </button>{" "}
+                          </div>
                         </div>
                       </div>
                     </article>
