@@ -8,6 +8,7 @@ import Expertise from './components/expertise';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Work from './components/Work';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Education></Education>
 					<Timeline></Timeline>
           <Work></Work>
+          <Contact></Contact>
           	</div>
       	</div>
       </div>
