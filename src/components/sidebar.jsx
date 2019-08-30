@@ -22,10 +22,9 @@ export default class Sidebar extends Component {
                   <li><a href="#expertise" data-nav-section="expertise">Expertise</a></li>
                   <li><a href="#skills" data-nav-section="skills">Skills</a></li>
                   <li><a href="#education" data-nav-section="education">Education</a></li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
+                  {/* <li><a href="#" data-nav-section="blog">Blog</a></li> */}
                   <li><a href="#experience" data-nav-section="experience">Experience</a></li>
-                  https://raw.githubusercontent.com/anish9461/Code-Analysis-Software-Tool/master/code_analysis_software_tool.gif
+                  <li><a href="#work" data-nav-section="work">Projects</a></li>
                 </ul>
               </div>
             </nav>

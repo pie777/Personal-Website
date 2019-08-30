@@ -13,7 +13,7 @@ export default class Work extends Component {
         className="colorlib-work"
         id="work"
         data-section="work"
-        style={{ marginTop: 40 }}
+        style={{ marginTop: 20 }}
       >
         <div className="colorlib-narrow-content">
           <div className="row">
@@ -23,38 +23,17 @@ export default class Work extends Component {
             >
               <span className="heading-meta">My Work</span>
               <h2 className="colorlib-heading animate-box">Recent Projects</h2>
-              <h3 className="colorlib-heading animate-box">Academic</h3>
             </div>
           </div>
-          {/*<div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-              <div className="col-md-12">
-                <p className="work-menu"><span><button className="active">Graphic Design</button></span> <span><button>Web Design</button></span> <span><button>Software</button></span> <span><button>Apps</button></span></p>
-              </div>
-    </div>*/}
+          <h3
+            className="colorlib-heading animate-box"
+            style={{ marginBottom: "-15px" }}
+          >
+            Academic
+          </h3>
+
           <div className="row">
-            {/* <div className="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-               <div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
-                  <div className="desc">
-                    <div className="con">
-                      <h3><a href="work.html">Work 01</a></h3>
-                      <span>Website</span>
-                      <p className="icon">
-                        <span><button><i className="icon-share3" /></button></span>
-                        <span><button><i className="icon-eye" /> 100</button></span>
-                        <span><button><i className="icon-heart" /> 49</button></span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                </div>
-                <section className="colorlib-experience" data-section="experience">*/}
             <div className="colorlib-narrow-content">
-              {/*<div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">Experience</span>
-                <h2 className="colorlib-heading animate-box">Work Experience</h2>
-              </div>
-            </div>*/}
               <div className="row">
                 <div className="col-md-12">
                   <div className="timeline-centered">
@@ -120,16 +99,6 @@ export default class Work extends Component {
                               upload, edit and delete projects, resumes etc.
                             </li>
                           </ul>
-                          {/* <div style={{ marginLeft: "700px" }}>
-                            <a
-                              className="link"
-                              href="https://github.com/anish9461/Personal-Website"
-                              target="_blank"
-                              style={{ textDecoration: "underline" }}
-                            >
-                              View Source Code
-                            </a>
-                          </div> */}
 
                           <div style={{ marginLeft: "720px", marginTop: "5%" }}>
                             <button
@@ -143,17 +112,6 @@ export default class Work extends Component {
                             >
                               <span> View Source Code </span>
                             </button>{" "}
-                            {/* <button style={{marginLeft:"10%"}}
-                              onClick={() => {
-                                window.open(
-                                  "https://github.com/anish9461/Code-Analysis-Software-Tool",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                             <span> View Source Code </span>
-                            </button>{" "} */}
                           </div>
                         </div>
                       </div>
@@ -354,6 +312,248 @@ export default class Work extends Component {
                         </div>
                       </div>
                     </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3
+            className="colorlib-heading animate-box"
+            style={{ marginBottom: "-25px" }}
+          >
+            Personal
+          </h3>
+
+          <div className="row">
+            <div className="colorlib-narrow-content">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="timeline-centered">
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Connect4 Game{" "}
+                              {/* <span style={{ color: "black" }}>
+                      Jan 2019-May 2019
+                    </span> */}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Full Stack Web Development
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              React Web App, nodejs server, Websocket
+                              Communication
+                            </div>
+                          </h2>
+                          <ul>
+                            <li>
+                              The fron-end of the game is designed and build
+                              using React Web App
+                            </li>
+                            <li>
+                              The back-end server and the business logic of the
+                              game was built on nodejs
+                            </li>
+                            <li>
+                              The Communication between the front-end and
+                              back-end was over Websockets
+                            </li>
+                          </ul>
+
+                          <div style={{ marginLeft: "720px", marginTop: "5%" }}>
+                            <button
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Connect4-Game",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Source Code </span>
+                            </button>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-2">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Tic-Tac-Toe Game{" "}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Application Web Development
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              React Web App, Reactjs
+                            </div>
+                          </h2>
+                          This was a Tic-Tac-Toe game built on React Web App
+                          <div style={{ marginLeft: "700px", marginTop: "5%" }}>
+                            <button
+                              onClick={() => {
+                                window.open("", "_blank");
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Project </span>
+                            </button>{" "}
+                            <button
+                              style={{ marginLeft: "10%" }}
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Tic-Tac-Toe",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Source Code </span>
+                            </button>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-3">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Docker Containers{" "}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: DevOps
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              Dockerfiles, docker compose files, containers,
+                              shell scripting
+                            </div>
+                          </h2>
+                          Docker Containers is the best adavancement that has
+                          ever happened in the software Technology. Here are
+                          some docker files that I have used to make my life
+                          simple :). I would be creating more Dockerfiles as and
+                          when needed to make my work ez pz.
+                          <div style={{ marginLeft: "700px", marginTop:"20px" }}>
+                            <button
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/DockerFiles",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Docker files </span>
+                            </button>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Circle CI{" "}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: DevOps
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              CI/CD pipelines, yml scripts, setting up containers
+                            </div>
+                          </h2>
+                          Circle CI is a tool to build, test and deploy application automatically. These are circle CI scripts that I have used to build and deploy my applications.
+                          <div style={{ marginLeft: "700px", marginTop:"20px" }}>
+                            <button
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Circle-CI",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            >
+                              <span> View Circle CI scripts </span>
+                            </button>{" "}
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+
                   </div>
                 </div>
               </div>
