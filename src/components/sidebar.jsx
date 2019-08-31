@@ -11,7 +11,7 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/anish_dp.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Anish Nesarkar</a></h1>
-              <span className="position"><a href="#">Full Stack Software/IoT Developer</a></span>
+              <span className="position" style={{color:"#27bee4"}}>Full Stack Software/IoT Developer</span>
               <span className="email"><i className="icon-mail"></i> anish9461@gmail.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
