@@ -10,7 +10,7 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build && COPY \"CNAME\" \"./build/CNAME\"",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
