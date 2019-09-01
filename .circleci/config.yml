@@ -36,7 +36,7 @@ jobs:
               git clone $CIRCLE_REPOSITORY_URL out
 
               cd out
-              ls
+              
               git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
               
               git rm -rf .
@@ -44,9 +44,9 @@ jobs:
               cd ..
 
               npm run build
-
+              ls
               cp -a build/. out/.
-
+              
               mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
               cd out
 
