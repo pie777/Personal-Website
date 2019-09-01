@@ -37,8 +37,9 @@ jobs:
 
               cd out
               git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-              ls
+              
               git rm -rf .
+              ls
               cd ..
 
               npm run build
