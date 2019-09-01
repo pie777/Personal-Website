@@ -49,9 +49,7 @@ jobs:
               
               mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
               cd out
-              vi CNAME
-              anishnesarkar.com
-              :wq
+              sed -i 'anishnesarkar.com' CNAME
               ls
               git add -A
               git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
