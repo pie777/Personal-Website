@@ -36,10 +36,11 @@ jobs:
               git clone $CIRCLE_REPOSITORY_URL out
 
               cd out
+              ls
               git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
               
               git rm -rf .
-              ls
+              
               cd ..
 
               npm run build
