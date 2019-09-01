@@ -22,7 +22,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/anish_bgimg.JPG)'}}>
+              <li style={{backgroundImage: 'url(images/anish_bgimg.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
