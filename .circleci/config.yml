@@ -51,7 +51,6 @@ jobs:
               cd out
               touch CNAME
               echo "anishnesarkar.com" > CNAME
-              ls
               git add -A
               git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
 
