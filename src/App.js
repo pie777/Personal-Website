@@ -26,6 +26,7 @@ class App extends Component {
           <Work></Work>
           <Contact></Contact>
           	</div>
+            
       	</div>
       </div>
     );

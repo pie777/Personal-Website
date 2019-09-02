@@ -18,7 +18,7 @@ export default class Contact extends Component {
                     <i className="icon-globe-outline" />
                   </div>
                   <div className="colorlib-text">
-                    <p>anesarka@syr.edu</p>
+                    <p><a href="mailto:anesarka@syr.edu">anesarka@syr.edu</a></p>
                   </div>
                 </div>
                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -26,7 +26,7 @@ export default class Contact extends Component {
                     <i className="icon-map" />
                   </div>
                   <div className="colorlib-text">
-                    <p>765 Westcott Street Syracuse New York NY 13210</p>
+                    <p>Syracuse, New York, 13210</p>
                   </div>
                 </div>
                 <div className="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">

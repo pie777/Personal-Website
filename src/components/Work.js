@@ -100,18 +100,16 @@ export default class Work extends Component {
                             </li>
                           </ul>
 
-                          <div style={{ marginLeft: "720px", marginTop: "5%" }}>
-                            <button
-                              onClick={() => {
-                                window.open(
-                                  "https://github.com/anish9461/Personal-Website",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Source Code </span>
-                            </button>{" "}
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Personal-Website",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
                           </div>
                         </div>
                       </div>
@@ -199,8 +197,16 @@ export default class Work extends Component {
                               using WCF framework and WPF for the Client
                             </li>
                           </ul>
-                          <div style={{ marginLeft: "700px", marginTop: "5%" }}>
-                            <button
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://raw.githubusercontent.com/anish9461/Code-Analysis-Software-Tool/master/code_analysis_software_tool.gif",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            {/* <button
                               onClick={() => {
                                 window.open(
                                   "https://raw.githubusercontent.com/anish9461/Code-Analysis-Software-Tool/master/code_analysis_software_tool.gif",
@@ -208,10 +214,10 @@ export default class Work extends Component {
                                 );
                               }}
                               data-animate-effect="fadeInTop"
-                            >
-                              <span> View Project </span>
-                            </button>{" "}
-                            <button
+                            > */}
+                            <span> View Project </span>
+                            {/* </button>{" "} */}
+                            {/* <button
                               style={{ marginLeft: "10%" }}
                               onClick={() => {
                                 window.open(
@@ -220,9 +226,21 @@ export default class Work extends Component {
                                 );
                               }}
                               data-animate-effect="fadeInTop"
-                            >
-                              <span> View Source Code </span>
-                            </button>{" "}
+                            > */}
+
+                            {/* </button>{" "} */}
+                          </div>
+                          <div
+                            className="button"
+                            style={{ marginTop: "7px" }}
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Code-Analysis-Software-Tool",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
                           </div>
                         </div>
                       </div>
@@ -296,18 +314,16 @@ export default class Work extends Component {
                               analytics.
                             </li>
                           </ul>
-                          <div style={{ marginLeft: "700px" }}>
-                            <button
-                              onClick={() => {
-                                window.open(
-                                  "https://drive.google.com/file/d/1j2jKbtsIIIhQlnWpo-AeTEPMBjoIzFu8/view",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Project </span>
-                            </button>{" "}
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://drive.google.com/file/d/1j2jKbtsIIIhQlnWpo-AeTEPMBjoIzFu8/view",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Project </span>
                           </div>
                         </div>
                       </div>
@@ -379,18 +395,16 @@ export default class Work extends Component {
                             </li>
                           </ul>
 
-                          <div style={{ marginLeft: "720px", marginTop: "5%" }}>
-                            <button
-                              onClick={() => {
-                                window.open(
-                                  "https://github.com/anish9461/Connect4-Game",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Source Code </span>
-                            </button>{" "}
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Connect4-Game",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
                           </div>
                         </div>
                       </div>
@@ -427,27 +441,28 @@ export default class Work extends Component {
                             </div>
                           </h2>
                           This was a Tic-Tac-Toe game built on React Web App
-                          <div style={{ marginLeft: "700px", marginTop: "5%" }}>
-                            <button
-                              onClick={() => {
-                                window.open("", "_blank");
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Project </span>
-                            </button>{" "}
-                            <button
-                              style={{ marginLeft: "10%" }}
-                              onClick={() => {
-                                window.open(
-                                  "https://github.com/anish9461/Tic-Tac-Toe",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Source Code </span>
-                            </button>{" "}
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://anish9461.github.io/Tic-Tac-Toe",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Project </span>
+                          </div>
+                          <div
+                            className="button"
+                            style={{ marginTop: "7px" }}
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Tic-Tac-Toe",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
                           </div>
                         </div>
                       </div>
@@ -488,18 +503,16 @@ export default class Work extends Component {
                           some docker files that I have used to make my life
                           simple :). I would be creating more Dockerfiles as and
                           when needed to make my work ez pz.
-                          <div style={{ marginLeft: "700px", marginTop:"20px" }}>
-                            <button
-                              onClick={() => {
-                                window.open(
-                                  "https://github.com/anish9461/DockerFiles",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Docker files </span>
-                            </button>{" "}
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/DockerFiles",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Docker files </span>
                           </div>
                         </div>
                       </div>
@@ -532,28 +545,27 @@ export default class Work extends Component {
                               Technology Stacks and Skills:
                             </div>
                             <div style={{ fontSize: "15px" }}>
-                              CI/CD pipelines, yml scripts, setting up containers
+                              CI/CD pipelines, yml scripts, setting up
+                              containers
                             </div>
                           </h2>
-                          Circle CI is a tool to build, test and deploy application automatically. These are circle CI scripts that I have used to build and deploy my applications.
-                          <div style={{ marginLeft: "700px", marginTop:"20px" }}>
-                            <button
-                              onClick={() => {
-                                window.open(
-                                  "https://github.com/anish9461/Circle-CI",
-                                  "_blank"
-                                );
-                              }}
-                              data-animate-effect="fadeInTop"
-                            >
-                              <span> View Circle CI scripts </span>
-                            </button>{" "}
+                          Circle CI is a tool to build, test and deploy
+                          application automatically. These are circle CI scripts
+                          that I have used to build and deploy my applications.
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Circle-CI",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Circle CI scripts </span>
                           </div>
                         </div>
                       </div>
                     </article>
-
-
                   </div>
                 </div>
               </div>
