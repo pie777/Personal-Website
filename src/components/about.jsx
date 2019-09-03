@@ -13,8 +13,9 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p><strong>Hi, I'am Anish Nesarkar</strong> I am a Full Stack Software/IoT Developer and Computer Science Graduate student at Syracuse University. </p>
+                    <p><strong>Hi, I am Anish Nesarkar,</strong> a Full Stack Software/IoT Developer and Computer Science Graduate student at Syracuse University. </p>
                     <p>I love exploring new technologies and often amazed by the progress we as a human species have made so far in the recent years</p>
+                    <p>This is my Personal Website showcasing my talent in Full Stack Software Development. Scroll down to explore my past and current Projects, Work experiences, education and skills</p>
                     </div>
                 </div>
                 </div>

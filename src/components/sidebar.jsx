@@ -45,7 +45,7 @@ export default class Sidebar extends Component {
                   {/* Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration  */}
               </small></p>
               <p><small>
-              Handcrafted using React & Continuously Integrated and Deployed using CircleCI
+              Handcrafted using React & Continuously Integrated and Deployed via CircleCI
               </small></p>
             </div>
           </aside>

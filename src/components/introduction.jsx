@@ -15,21 +15,21 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc" style={{textAlign:"right"}}>
                           <h1 style={{color:'white'}}>Hi! <br />I'm Anish</h1>
-                          <p><a style={{color:'white'}} className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                          <p><a style={{color:'white'}} className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1L-oRS6m3V4XrrmRx5H2XXhpfSHAPNvktzlgfRi4-cq0/edit" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/anish_bgimg.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/home_setup.jpg)'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc" style={{textAlign:"right"}}>
-                          <h1 style={{color:'cyan'}}>I love building<br /> THINGS !!</h1>
+                          <h1 style={{color:'cyan'}}>I code, travel, workout, sleep<br /> REPEAT !!</h1>
                           <p><a style={{color:'cyan'}} className="btn btn-primary btn-learn" href="https://github.com/anish9461" target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
