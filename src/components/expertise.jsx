@@ -39,7 +39,7 @@ export default class Expertise extends Component {
                 </span>
                 <div className="desc">
                   <h3>Back End Development</h3>
-                  <p>Nodejs, Golang, SQL Server, Python, ASP .Net</p>
+                  <p>Nodejs, Golang, SQL Server, Python, ASP .Net Core MVC</p>
                 </div>
               </div>
             </div>
@@ -66,8 +66,8 @@ export default class Expertise extends Component {
                   <i className="icon-data" />
                 </span>
                 <div className="desc">
-                  <h3>Dev Ops</h3>
-                  <p>Docker, Circle CI, Travis CI, Amazon AWS </p>
+                  <h3>DevOps</h3>
+                  <p>Docker Containers, Circle CI, Amazon AWS S3 and EC2</p>
                 </div>
               </div>
             </div>
