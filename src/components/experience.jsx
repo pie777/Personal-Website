@@ -216,18 +216,18 @@ export default class Experience extends Component {
                             electric vehicle to monitor the state of charge of
                             the electric vehicle.
                           </li>
-                        
-                        <li>
-                          Involved in efficient and optimal programming of the
-                          microcontroller to control the sensor that provides
-                          necessary information like speed, distance covered by
-                          the vehicle and its location.
-                        </li>
-                        <li>
-                          Built an Android App to display the information like
-                          speed, distance, state of charge and location of the
-                          electric vehicle.
-                        </li>
+
+                          <li>
+                            Involved in efficient and optimal programming of the
+                            microcontroller to control the sensor that provides
+                            necessary information like speed, distance covered
+                            by the vehicle and its location.
+                          </li>
+                          <li>
+                            Built an Android App to display the information like
+                            speed, distance, state of charge and location of the
+                            electric vehicle.
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -302,34 +302,6 @@ export default class Experience extends Component {
                       </div>
                     </div>
                   </article>
-                  {/* <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Research Intern at Crucible of Reasearch and Innovation Lab<span>2016-2017</span></h2>
-                        <p>I completed my under-graduation with major in Electronics and Communication Engineering. I have taken courses like Internet Of Things, Embedded Systems, Computer Networks, DSA which have strengthened my fundamentals in the field of Computer Science. I have also been part of Microsoft Innovation Lab and Crucible of Research and Innovation lab as an intern and later as Mentor.</p>
-                      </div>
-                    </div>
-                  </article> */}
-                  {/* <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Primary and Higher Education <span>2003-2015</span></h2>
-                        <p>I have completed my higher secondary education with major subjects as Physics,Chemistry & Maths with 91 merit. During my time at school, I have developed interest in solving complex problems of the fundamental physics which helped me to improve my understanding of any problem and also my mathematical skills to actually solve the problems.</p> 
-                      </div>
-                    </div>
-                  </article> */}
-                  {/* <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
-                      </div>
-                    </div>
-                  </article> */}
                 </div>
               </div>
             </div>
