@@ -3,7 +3,6 @@ import React, { Component } from "react";
 export default class Expertise extends Component {
   render() {
     return (
-    
       <section className="colorlib-about" data-section="expertise">
         <div className="colorlib-narrow-content">
           <div className="row">
@@ -58,7 +57,6 @@ export default class Expertise extends Component {
               </div>
             </div>
 
-
             <div className="col-md-4 text-center animate-box" />
             <div className="col-md-4 text-center animate-box">
               <div className="services color-5">
@@ -73,9 +71,8 @@ export default class Expertise extends Component {
             </div>
           </div>
         </div>
-        <div style={{height: "100px"}}></div>
+        <div style={{ height: "100px" }}></div>
       </section>
-    
     );
   }
 }
