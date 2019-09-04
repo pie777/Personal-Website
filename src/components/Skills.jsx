@@ -24,7 +24,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <p>
-                A girl who codes. Passionate about techologies and innovation.
+                A guy who codes. Passionate about techologies and innovation.
               </p>
             </div>
             <div
@@ -37,10 +37,10 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-1"
                     role="progressbar"
-                    aria-valuenow={75}
+                    aria-valuenow={90}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "75%" }}
+                    style={{ width: "90%" }}
                   >
                     <span>90%</span>
                   </div>
@@ -57,10 +57,10 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-2"
                     role="progressbar"
-                    aria-valuenow={60}
+                    aria-valuenow={95}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "60%" }}
+                    style={{ width: "95%" }}
                   >
                     <span>95%</span>
                   </div>
@@ -77,10 +77,10 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-3"
                     role="progressbar"
-                    aria-valuenow={85}
+                    aria-valuenow={94}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "85%" }}
+                    style={{ width: "94%" }}
                   >
                     <span>94%</span>
                   </div>
@@ -97,10 +97,10 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-4"
                     role="progressbar"
-                    aria-valuenow={90}
+                    aria-valuenow={94}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "90%" }}
+                    style={{ width: "94%" }}
                   >
                     <span>94%</span>
                   </div>
@@ -117,12 +117,12 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-5"
                     role="progressbar"
-                    aria-valuenow={70}
+                    aria-valuenow={80}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "70%" }}
+                    style={{ width: "80%" }}
                   >
-                    <span>70%</span>
+                    <span>80%</span>
                   </div>
                 </div>
               </div>
@@ -157,10 +157,10 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-6"
                     role="progressbar"
-                    aria-valuenow={80}
+                    aria-valuenow={90}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "80%" }}
+                    style={{ width: "90%" }}
                   >
                     <span>90%</span>
                   </div>
@@ -177,10 +177,10 @@ export default class Skills extends Component {
                   <div
                     className="progress-bar color-5"
                     role="progressbar"
-                    aria-valuenow={70}
+                    aria-valuenow={85}
                     aria-valuemin={0}
                     aria-valuemax={100}
-                    style={{ width: "70%" }}
+                    style={{ width: "85%" }}
                   >
                     <span>85%</span>
                   </div>
