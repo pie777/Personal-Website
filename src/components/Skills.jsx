@@ -112,7 +112,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>Java, C#, .Net</h3>
+                <h3>Java, C#, .Net, Golang</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-5"
@@ -152,7 +152,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>AWS EC2, Docker, CircleCI, CI/CD</h3>
+                <h3>AWS S3 & EC2, Docker Containers, git, CircleCI, CI/CD</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-6"
@@ -172,7 +172,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>Sensors & Gateways, Wireless Sensor Networks, Lora</h3>
+                <h3>Sensors & Gateways, Wireless Sensor Networks, Lora Communication, MQTT protocols</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-5"
