@@ -27,7 +27,7 @@ export default class Experience extends Component {
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
-                      {/* TODO: Elaborate the experience just like Linkedln */}
+
                       <div className="timeline-label">
                         <h2>
                           <div style={{ color: "#f33612", fontSize: "25px" }}>
