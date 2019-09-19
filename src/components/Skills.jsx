@@ -132,7 +132,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>Microsoft SQL server, SQL</h3>
+                <h3>Microsoft SQL server,MongoDB</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-6"
