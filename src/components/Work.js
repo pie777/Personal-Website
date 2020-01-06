@@ -49,6 +49,110 @@ export default class Work extends Component {
                         <div className="timeline-label">
                           <h2>
                             <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              FoodDine-InReady{" "}
+                              <span style={{ color: "black" }}>
+                                Aug 2019-Dec 2019
+                              </span>
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Full Stack Software Development
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              React, Javascript, Java, Springboot, MongoDB, AWS
+                              Amplify, Heroku, DevOps, Object Oriented Design,
+                              REST API{" "}
+                            </div>
+                          </h2>
+                          <ul>
+                            <li>
+                              The project is based on Object-Oriented Design
+                              patterns and principles.
+                            </li>
+                            <li>
+                              The React Web App displays a 2D map view of the
+                              restaurant to book a table via REST API calls
+                            </li>
+
+                            <li>
+                              The backend Spring Boot and MongoDB provide REST
+                              API calls
+                            </li>
+                            <li>
+                              The Web App and Spring boot is continuously
+                              integrated and deployed (CI/CD) on AWS amplify and
+                              Heroku respectively
+                            </li>
+                          </ul>
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://master.d1q95m7fvorcmw.amplifyapp.com/",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            {/* <button
+                              onClick={() => {
+                                window.open(
+                                  "https://raw.githubusercontent.com/anish9461/Code-Analysis-Software-Tool/master/code_analysis_software_tool.gif",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            > */}
+                            <span> View Project </span>
+                            {/* </button>{" "} */}
+                            {/* <button
+                              style={{ marginLeft: "10%" }}
+                              onClick={() => {
+                                window.open(
+                                  "https://github.com/anish9461/Code-Analysis-Software-Tool",
+                                  "_blank"
+                                );
+                              }}
+                              data-animate-effect="fadeInTop"
+                            > */}
+
+                            {/* </button>{" "} */}
+                          </div>
+                          <div
+                            className="button"
+                            style={{ marginTop: "7px" }}
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/FoodDine-InReady",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
                               Personal Website{" "}
                               <span style={{ color: "black" }}>
                                 Jan 2019-May 2019
