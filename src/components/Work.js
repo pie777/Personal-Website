@@ -349,6 +349,82 @@ export default class Work extends Component {
                         </div>
                       </div>
                     </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Movie Success Prediction{" "}
+                              <span style={{ color: "black" }}>
+                                Aug 2019-Dec 2019
+                              </span>
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Machine Learning
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              Python, SVM, Naive Bayes Classification, Data
+                              mining
+                            </div>
+                          </h2>
+                          <ul>
+                            <li>
+                              A machine learning project to predict if a movie
+                              is going to be a blockbuster or flop.
+                            </li>
+                            <li>
+                              Data is collected from Twitter and Youtube and
+                              classified based on positive and negative tweets
+                              and comments respectively.
+                            </li>
+                            <li>
+                              Data is cleaned to remove any unnecessary
+                              characters like usernames, whitespaces,
+                              punctuations. • Implementation of various
+                              classification algorithms like keyword
+                              classification, Naive Bayes classification, SVM
+                              classification to compare their accuracy.
+                            </li>
+                            <li>
+                              Data visualization and Analysis using matplotlib
+                              to predict the success of the movie on a scale
+                              from 1 to 5, 5 being the blockbuster and 1 being
+                              flop.
+                            </li>
+                          </ul>
+
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Movie-Success-Prediction",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
                     <article
                       className="timeline-entry animate-box"
                       data-animate-effect="fadeInLeft"
