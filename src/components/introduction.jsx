@@ -26,7 +26,7 @@ export default class Introduction extends Component {
                             <a
                               style={{ color: "white" }}
                               className="btn btn-primary btn-learn"
-                              href="https://drive.google.com/file/d/1kTbr1ggo11Vy35Aj6RCn4zWjoXyeeG3w/view?usp=sharing"
+                              href="https://drive.google.com/open?id=1NqA5GHSo9HJEyL9p5yHjPiYI67mrMAJk"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

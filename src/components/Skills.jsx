@@ -32,7 +32,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>C/C++</h3>
+                <h3>Java, Golang, C#, C/C++</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-1"
@@ -92,7 +92,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>React, Node</h3>
+                <h3>React, Node, Spring Boot, Node-red, JUnit, Microservices, Apache Tomcat, Nginx</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-4"
@@ -112,7 +112,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>Java, C#, .Net, Golang</h3>
+                <h3>Docker, Docker Swarm, Jenkins, Circle CI, git version control, Shell, Maven</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-5"
@@ -122,7 +122,7 @@ export default class Skills extends Component {
                     aria-valuemax={100}
                     style={{ width: "80%" }}
                   >
-                    <span>80%</span>
+                    <span>85%</span>
                   </div>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>Microsoft SQL server,MongoDB</h3>
+                <h3>Microsoft SQL server,MongoDB, MySQL</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-6"
@@ -152,7 +152,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>AWS S3 & EC2, Docker Containers, git, CircleCI, CI/CD</h3>
+                <h3>AWS S3, EC2, VPC, RDS, Amplify, SES, SNS</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-6"

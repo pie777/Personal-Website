@@ -57,7 +57,7 @@ export default class Experience extends Component {
                           </div>
                           <div style={{ fontSize: "15px" }}>
                             React App, React Native, nodejs, javascript, Shell
-                            scripts, Docker Containers, Node-Red, CircleCI, AWS
+                            scripts, Python, Docker Containers, Node-Red, CircleCI, AWS
                             S3, AWS EC2, Wireless Sensor Networks, Lora
                             Communication, MQTT protocol
                           </div>
@@ -67,8 +67,7 @@ export default class Experience extends Component {
                           IotRight in North Syracuse. My work goes from
                           Application development with React and React-Native,
                           DevOps and configuring Sensors and gateways on Lora
-                          network communicating over MQTT protocol on back-end.
-                          Here are the tasks I perform for Front-end, DevOps and
+                          network communicating over MQTT protocol on back-end. I have also designed the architecture and built end-to-end services for lighting, security systems to name a few. Here are the tasks I perform for Front-end, DevOps and
                           on the Back-end
                         </p>
                         <p>
@@ -101,7 +100,7 @@ export default class Experience extends Component {
                             a map.
                           </li>
                           <li>
-                            Data visualization on the SVG’s using d3js library.
+                            Real time Data visualization on the SVG’s using d3js library.
                           </li>
                           <li>
                             SCSS customization and styling for the React App.{" "}
@@ -137,11 +136,11 @@ export default class Experience extends Component {
                           </li>
                           <li>
                             Setting up wireless Sensor Networks between based on
-                            Lora Communication protocol.
+                            Lora Communication protocol
                           </li>
                           <li>
                             Configuring an instance of IoT platform of IoTRight
-                            in the gateway (called the “Edge”).
+                            in the gateway (called the “Edge”)
                           </li>
                           <li>
                             Writing Node-red(Javascript) and GoLang Parsers for
@@ -152,7 +151,10 @@ export default class Experience extends Component {
                           </li>
                           <li>
                             Setting up mQTT protocol topic paths for
-                            transferring data from “edge” to the IoT Platform.
+                            transferring data from “edge” to the IoT Platform
+                          </li>
+                          <li>
+                          Configuring Selecta DNA alarm system with python scripts and publisher subscriber model communication
                           </li>
                         </ul>
                       </div>

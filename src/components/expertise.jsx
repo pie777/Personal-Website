@@ -25,8 +25,8 @@ export default class Expertise extends Component {
                 <div className="desc">
                   <h3>Front End Development</h3>
                   <p>
-                    React, React Native and Electron framework, SASS & SCSS
-                    styling, Webpack and Babel{" "}
+                    React, Javascript, React Native and Electron framework, SASS & SCSS
+                    styling, Nginx, Webpack and Babel{" "}
                   </p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export default class Expertise extends Component {
                 </span>
                 <div className="desc">
                   <h3>Back End Development</h3>
-                  <p>Nodejs, Golang, SQL Server, Python, ASP .Net Core MVC</p>
+                  <p>Spring boot framework, Apache Tomcat, JUnit Testing, Swagger API, Nodejs, Golang, SQL Server, Python, MongoDB, MySQL</p>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default class Expertise extends Component {
                   <h3>Internet Of Things</h3>
                   <p>
                     Wireless Sensor Networks, Gateways, Lora Network, MQTT
-                    protocol, IoT Platform{" "}
+                    protocol, Lighting and Alarm Systems, IoT Platform{" "}
                   </p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ export default class Expertise extends Component {
                 </span>
                 <div className="desc">
                   <h3>DevOps</h3>
-                  <p>Docker Containers, Circle CI, Amazon AWS S3 and EC2</p>
+                  <p>Docker Containers, Docker Swarm, Jenkins, Circle CI, Amazon AWS EC2, S3, VPC, SES and SNS, Amplify and RDS, Microservices</p>
                 </div>
               </div>
             </div>

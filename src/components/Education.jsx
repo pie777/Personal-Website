@@ -101,7 +101,7 @@ export default class Education extends Component {
                           <div className="col-md-6">
                             <p>
                               COURSES: Algorithms, Computer Networks, Internet
-                              Of Things
+                              Of Things, Embedded Systems
                             </p>
                           </div>
                         </div>

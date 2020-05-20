@@ -28,7 +28,7 @@ export default class About extends Component {
                       </p>
                       <p>
                         This is my Personal Website showcasing my talent in Full
-                        Stack Software Development. Scroll down to explore my
+                        Stack Software and IoT Development. Scroll down to explore my
                         past and current Projects, Work experiences, education
                         and skills
                       </p>
