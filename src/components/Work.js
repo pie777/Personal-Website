@@ -518,7 +518,7 @@ export default class Work extends Component {
             className="colorlib-heading animate-box"
             style={{ marginBottom: "-25px" }}
           >
-            Personal
+            Personal/Opensource
           </h3>
 
           <div className="row">
@@ -526,6 +526,67 @@ export default class Work extends Component {
               <div className="row">
                 <div className="col-md-12">
                   <div className="timeline-centered">
+                  <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Tracker-API{" "}
+                              {/* <span style={{ color: "black" }}>
+                      Jan 2019-May 2019
+                    </span> */}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: Full Stack Web Development
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline"
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              Spring boot, JUnit Testing, Swagger UI, Maven, Apache Tomcat, Docker, Docker swarm, AWS VPC,SES,SNS,RDS
+                            </div>
+                          </h2>
+                          <ul>
+                            <li>
+                            Built REST APIs using spring boot with Unit and Integrations tests with endpoints documented on Swagger UI
+                            </li>
+                            <li>
+                            Configured AWS VPC for master and worker AWS EC2 nodes to run docker services using docker swarm
+                            </li>
+                            <li>
+                            Utilized AWS SES and SNS for notification service and configured Jenkins pipeline to automate the application deployment
+                            </li>
+                          </ul>
+
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Tracker-API",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Source Code </span>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    
+                    
                     <article
                       className="timeline-entry animate-box"
                       data-animate-effect="fadeInLeft"
@@ -571,7 +632,7 @@ export default class Work extends Component {
                             </li>
                             <li>
                               The Communication between the front-end and
-                              back-end was over Websockets
+                              back-end is established over Websockets
                             </li>
                           </ul>
 
